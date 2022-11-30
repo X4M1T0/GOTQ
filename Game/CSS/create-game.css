@@ -1,0 +1,11 @@
+
+
+#inMenu{
+    width: 90%;
+    height: 80%;
+    background-color: grey;
+    position: absolute;
+    left: 0;
+    border-radius: 15px;
+    justify-self: center;
+}

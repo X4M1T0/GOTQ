@@ -1,0 +1,92 @@
+
+
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Anton&family=Caveat&family=Poor+Story&family=Roboto+Condensed:wght@700&family=Rubik+Distressed&display=swap');
+
+        /*
+            UTILIZADAS:
+            - Poor Story
+            - Roboto Condensed
+            - Rubik Distressed
+            - Anton
+            - Caveat
+            - Amatic SC
+        */
+
+body{
+    background-color: #3c3cfd;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*    CONFIG ERROR MSG    */
+
+#divMsg{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(248, 50, 50);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+    position: absolute;
+    animation: ease .5s ;
+    animation-name: errorAnim;
+}
+
+#msgError{
+    font-size: 9pt;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+
+@keyframes errorAnim{
+    0%{
+        top: -50px;
+    }
+
+    100%{
+        top: 0;
+    }
+}
+
+
+#logoImg{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+}
+
+#username-form{
+    width: 30%;
+    height: 450px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px #000050;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 80px;
+    font-family: 'Poor Story';
+    font-size: 22pt;
+}
+
+#formConfig{
+    width: 100%;
+    position: absolute;
+    top: 150px;
+}
+
+.form-label{
+    font-family: 'Amatic SC';
+    font-size: 30pt;
+}
+
+#exampleInputEmail1{
+    width: 200px;
+    height: 35px;  
+}
