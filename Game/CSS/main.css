@@ -22,6 +22,14 @@ body{
 }
 
 
+
+
+
+
+
+
+
+
 /*    CONFIG ERROR MSG    */
 
 #divMsg{
@@ -90,3 +98,53 @@ body{
     width: 200px;
     height: 35px;  
 }
+
+
+
+
+
+
+
+/* CONFIG ENTER LINK GAME */
+
+#brushDiv{
+    box-sizing: inherit;
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+}
+
+#boxGetLink{
+    width: 60%;
+    height: 160px;
+    background-color: #fff; 
+    box-shadow: 0px 4px 6px #000050;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 200px;
+}
+
+#labelInp{
+    position: absolute;
+    top: 10px;
+}
+
+#inpLink{
+    width: 70%;
+    height: 40px;
+    position: absolute;
+    top: 45px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid #999;
+}
+
+#btnGet{
+    width: 100px;
+    position: absolute;
+    top: 100px;
+}
+
