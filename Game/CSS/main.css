@@ -142,6 +142,19 @@ body{
     border: 1px solid #999;
 }
 
+#btnExit{
+    width: 20px;
+    height: 25px;
+    background-color: #838383;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 10pt;
+    position: absolute;
+    right: 3%;
+    top: 10px;  
+}
+
 #btnGet{
     width: 100px;
     position: absolute;

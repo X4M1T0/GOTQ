@@ -11,3 +11,8 @@ function errorMsg(){
     divMsg.appendChild(msgError);
     document.body.appendChild(divMsg);
 }
+
+
+function excludeError(){
+    document.getElementById("divMsg").remove();
+}

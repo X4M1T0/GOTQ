@@ -1,0 +1,32 @@
+
+Projeto GOTC:
+
+- O GOTIC é um jogo de perguntas e respostas inicialmente criado para ser jogado com perguntas referente ao mundo dos games mas, ao expandí-lo para um projeto real, vimos a necessidade da criação de novos temas de jogo, englobando assim jogadores de todos os gostos e o tornando mais intuitivo!
+
+FUNCIONAMENTO:
+
+- Dentro do jogo, em sua tela inicial o jogador terá duas opções de escolha:
+    . Criar uma sala de jogo e ser seu OWNER;
+    . Entrar em uma sala já existente.
+
+Caso o jogador escolha criar uma sala nova, ele se tornará o dono da mesma, onde ele terá uma tela diferente da dos jogadores.
+A tela do OWNER terá como itens iniciais um input de tema e outro input na qual ele colocará a questão criada pelo mesmo e que será respondida pelos jogadores. Ele também terá acesso a mesma aba lateral de visualiazação de quantos/quais jogadores estão na sala do jogo.
+
+Agora, caso o jogador escolha entrar em uma sala já existente e se tornar um jogador da mesma, ele terá como itens em sua tela inicial um bloco o mostrando o tema da partida, outro bloco um pouco à baixo mostrando a pergunta do OWNER e, no inferior da página, ele terá um input onde o mesmo colocará sua resposta. Terá o mesmo acesso a aba lateral de amostra dos jogadores.
+
+Voltando para o OWNER, após todos responderem, sua tela mudará para a amostra de todas as respostas e ele escolherá quais delas estão corretas. Essa necessidade de escolha se dá pelo fato de que, caso a resposta seja pré-programada pelo OWNER, algum jogador poderá acabar por opitar a dar a resposta abreviada ou com um sub-nome da resposta real, EX:
+        Pergunta: Qual game ganhou o Goty de 2011? 
+        Resposta correta: The elder scrols v: Skyrim
+        Resposta do jogador: Skyrim (uma abreviatura)
+
+Esse tipo de resposta o levaria ao infeliz erro mesmo tendo respondido da maneira correta, o que o levaria a questionar e até largar o jogo. Com o OWNER escolhendo as respostas corretas, isso não aconteceria, uma vez que ele saberia sobre o assunto e conheceria os sub-nomes presentes dentro da resposta de sua pergunta.
+
+POSSIBILIDADE DE EXPANSÃO:
+
+- O GOTC pode servir muito bem como um jogo utilizado em escolas e repassado de professores para alunos, uma vez que o próprio OWNER cria as perguntas e pode corrigir as respostas de modo a escolher as corretas e corrigir as erradas, se encaixando perfeitamente dentro do ambiente escolar que cada vez mais vem tendo projetos de inclusão com games dentro de seu quadro escolar!
+
+
+MÉTRICAS DE GERAÇÃO DE LUCRO:
+
+- Utilização de anúncios dentro do site;
+- 

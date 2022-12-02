@@ -21,21 +21,23 @@ function validateNick(){
             errorMsg();
             console.log(nickname);
         } else {
+            excludeError();
             console.log(nickname);
             pageRedirect = "../Game/create.html";
             windowReplace(pageRedirect);
         }
     });
 
-    const btnPlay = document.getElementById("btnPlay");
+    const btnPlay = document.querySelector("#btnPlay");
 
     btnPlay.addEventListener("click", function(e){
         if(!nickname){
             errorMsg();
             console.log(nickname);
         } else {
+            excludeError();
             console.log(nickname);
-
+            getLink();
         }
 
     });
@@ -55,6 +57,13 @@ function playRoom(){
 function windowReplace(pageRedirect) {
     location.replace(pageRedirect);
 }
+
+
+
+/*
+        FUNCTION DE CRIAÇÃO DE FORMULÁRIO PARA BUTTON PLAY
+*/
+
 
 function getLink(){
 
@@ -90,8 +99,17 @@ function getLink(){
     btnGet.setAttribute("class", "btn btn-primary");
 
 
+    // BUTTON EXIT 
+    var btnExit = document.createElement("input");
+    btnExit.setAttribute("type", "button");
+    btnExit.setAttribute("id", "btnExit");
+    btnExit.setAttribute("value", "X");
+    btnExit.setAttribute("onclick", "exitPlay()");
+
+
     // CONFIG APPENDCHILD
     brushDiv.appendChild(boxGetLink);
+    boxGetLink.appendChild(btnExit);
     boxGetLink.appendChild(btnGet);
     boxGetLink.appendChild(inpLink);
     boxGetLink.appendChild(labelInp);
@@ -119,4 +137,17 @@ function enterGame(){
         location.replace(linkGame);
     }
 
+}
+
+
+function exitPlay(){
+    document.getElementById("brushDiv").remove();
+
+     // REABILITANDO BUTTONS DO FORM NICKNAME
+     const btnCreate = document.querySelector("#btnCreate");
+     btnCreate.removeAttribute("disabled");
+ 
+     const btnPlay = document.getElementById("btnPlay");
+     btnPlay.removeAttribute("disabled");
+ 
 }
